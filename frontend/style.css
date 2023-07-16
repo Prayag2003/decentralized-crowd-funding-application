@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(130deg, #23cae4, #792acd, #3dd17d, #8c1eff);
+    background-size: 400% 400%;
+    animation: gradientAnimation 8s ease infinite;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.text {
+    font-size: 100px;
+    align-items: center;
+    text-shadow: 4px 4px 6px rgba(0.2, 0.2, 0.2, 0.4);
+    margin-bottom: 19px;
+    margin-right: 56px;
+    background: linear-gradient(135deg, #1dcae5, #8c1eff, #22b8cf, #8c1eff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text2 {
+    font-size: 40px;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 0;
+}
+#btn {
+    display: inline-block;
+    padding: 15px;
+    margin-left: 70vw;
+    font-size: 20px;
+    width: 180px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #36dafb;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+#btn2,
+#btn3,
+#btn4 {
+    display: inline-block;
+    padding: 8px 30px;
+    margin-bottom: 30px;
+    margin-top: 35px;
+    margin-left: 30px;
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+#btn2:hover,
+#btn3:hover,
+#btn4:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+#btn:hover {
+    background-color: white;
+    color: black;
+}
+#btn2 {
+    background-color: rgb(36, 123, 189);
+}
+
+#btn3 {
+    background-color: #5747cf;
+}
+
+#btn4 {
+    background-color: #222f3e;
+}
+
+#label {
+    color: rgb(0, 255, 187);
+    font-size: 25px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+#amt {
+    padding: 15px;
+    border-radius: 20px;
+    border: 2px solid blueviolet;
+    width: 250px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+    .text {
+        font-size: 32px;
+    }
+    .text2 {
+        font-size: 20px;
+    }
+}
