@@ -14,7 +14,7 @@
 
 ```
     cd fundify-decentralized-crowd-funding-application
-    npm run dev
+    npm i
 ```
 
 3. Move to the frontend directory and search for index.html
