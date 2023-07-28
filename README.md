@@ -2,27 +2,18 @@
 
 <h2><center>A crowd funding decentralized application</center></h2>
 
-### Steps to run the project in your command prompt:
+<h3><center>Home Page</center></h3>
+<img src = "./static/images/fundify-main-page.png" />
 
-1. Clone the repository
+<hr>
+<h3><center>Funding the contract with 0.1 Sepolia ETH</center></h3>
+<img src = "./static/images/funding-0.1.png" />
+<hr>
 
-```
-    git clone https://github.com/Prayag2003/fundify-decentralized-crowd-funding-application
-```
+<img src = "./static/images/funding-console.png" />
+<hr>
 
-2. Add the necessary dependencies
-
-```
-    cd fundify-decentralized-crowd-funding-application
-    npm i
-```
-
-3. Move to the frontend directory and search for index.html
-
-```
-    cd frontend
-```
-
-4. Run the `index.html` file.
-
-5. Connect with your `Metamask wallet` and enjoy the application !
+<h3><center>Withdrawing the tokens from the contract</center></h3>
+<img src = "./static/images/withdraww.png" />
+<h4>Get Balance after withdrawal displays 0.0. Hence the withdrawal is successful and the owner gets the funds.</h4>
+<img src = "./static/images/withdraw.png" />
